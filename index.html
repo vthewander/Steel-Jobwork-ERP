@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Steel Jobwork ERP — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">↗</div>
+      <div><b>STEEL JOBWORK ERP</b><span>STRONGER OPERATIONS<br>BRIGHTER TOMORROW</span></div>
+    </div>
+    <button class="nav active" data-label="Home">⌂ <span>Home</span></button>
+    <button class="nav" data-label="Modules">▦ <span>Modules</span></button>
+    <button class="nav badge-nav" data-label="My Approvals">♧ <span>My Approvals</span><i>5</i></button>
+    <button class="nav badge-nav" data-label="My Tasks">☑ <span>My Tasks</span><i>8</i></button>
+    <button class="nav" data-label="My Notes">▤ <span>My Notes</span></button>
+    <button class="nav badge-nav" data-label="Messages">✉ <span>Messages</span><i>3</i></button>
+    <div class="nav-divider"></div>
+    <button class="nav" data-label="Calendar">▣ <span>Calendar</span></button>
+    <button class="nav" data-label="Help & Support">?</button>
+    <button class="nav" data-label="Settings">⚙ <span>Settings</span></button>
+    <div class="side-card"><strong>Steel<br>People<br>Progress<br>Together.</strong><small>—</small></div>
+    <div class="version">Version 1.0.0<br>© 2026 Steel Jobwork ERP</div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="hamburger" id="menuBtn">☰</button>
+      <div class="search">⌕ <input placeholder="Search documents, items, parties, reports...  (Ctrl + K)" id="search"></div>
+      <div class="top-right">
+        <button class="icon-btn">♟<em>3</em></button>
+        <div class="profile">
+          <div class="avatar">VG</div>
+          <div><b>VIKAS GUPTA</b><span>Chairman & Managing Director</span></div>
+          <span>⌄</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="greeting" id="greeting">Good Morning,</div>
+        <h1>VIKAS GUPTA</h1>
+        <p>Smarter Systems. Stronger Tomorrow.</p>
+      </div>
+      <div class="hero-art">
+        <div class="coil c1"></div><div class="coil c2"></div><div class="coil c3"></div>
+        <div class="hero-quote">Steel<br><i>Moves the World</i><br>Together.<div class="line"></div></div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head"><h2>Modules</h2><a href="#" id="allModules">View All Modules →</a></div>
+      <div class="workspace">
+        <div class="module-grid" id="moduleGrid"></div>
+        <aside class="right-rail">
+          <div class="time-card"><span>▣</span><div id="date"></div><strong id="time"></strong></div>
+          <div class="quote-card">“Efficient Operations.<br>Sustainable Growth.”<div class="line"></div></div>
+          <div class="notes-card"><h3>▤ &nbsp; My Notes <span>›</span></h3><div class="note-body"><div>▤</div><p>Capture your thoughts,<br>reminders and to-dos.<br><small>(Private to you only)</small></p><button id="addNote">＋ Add Note</button></div></div>
+        </aside>
+      </div>
+    </section>
+    <footer><span>◈</span> Digitise &nbsp; | &nbsp; Streamline &nbsp; | &nbsp; Grow Together.</footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
